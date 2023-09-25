@@ -1,42 +1,46 @@
-/* Selector 1: Mengubah warna teks untuk header */
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF;
 }
 
-/* Selector 2: Mengatur latar belakang untuk tombol navigasi */
-nav {
-  background-color: #0077cc;
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFEFD5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
-/* Selector 3: Mengatur gaya tautan di dalam navigasi */
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
+h1 {
+    font-size: 24px;
+    color: #333;
 }
 
-/* Selector 4: Mengatur tampilan proyek dalam portofolio */
-.project {
-  margin: 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
+a {
+    text-decoration: none;
+    color: #FFBF00;
 }
 
-/* Selector 5: Mengatur warna latar belakang untuk bagian "Kontak" */
-#contact {
-  background-color: #f4f4f4;
+a:hover {
+    text-decoration: underline;
 }
 
-/* Menambahkan kontainer untuk mengatur konten di tengah halaman */
-.container {
-  display: flex;
-  justify-content: flex-end; /* Menggeser konten ke kanan */
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  flex-direction: column; /* Mengatur konten menjadi vertikal */
-  height: 100vh; /* Mengisi seluruh tinggi viewport */
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #4682B4;
+}
+
+tr:last-child td {
+    border-bottom: none;
 }
